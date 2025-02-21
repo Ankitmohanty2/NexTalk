@@ -4,7 +4,7 @@ NexTalk is a cutting-edge replication of Zoom, built with the latest Next.js and
 
 
 ## 📸 !NexTalk Home Page
-![NexTalk](https://github.com/razannael/Full-Stack-Zoom-Clone/assets/127951072/88de6e8a-e2b7-4cf4-9138-3e2f43fc0eee)
+![NexTalk]([https://github.com/Ankitmohanty2/assets/a369b640-5efb-40ab-8cef-1484d132a4fd])
 
 ## 🛠️ Tech Stack
 
