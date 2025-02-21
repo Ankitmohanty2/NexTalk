@@ -21,20 +21,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ClerkProvider 
-       appearance={{
-        layout: {
-          socialButtonsVariant: "iconButton",
-          logoImageUrl: "/icons/yoom-logo.svg",
-        },
-        variables: {
-          colorText: "#fff",
-          colorPrimary: "#0E78F9",
-          colorBackground: "#1C1F2E",
-          colorInputBackground: "#252A41",
-          colorInputText: "#fff",
-        },
-      }}>
+          <ClerkProvider 
+        appearance={{
+          layout: {
+            socialButtonsVariant: "iconButton",
+            logoImageUrl: "/icons/logo.png",
+            logoPlacement: "inside",
+            shimmer: true,
+          },
+          variables: {
+            colorText: "#fff",
+            colorPrimary: "#0E78F9",
+            colorBackground: "#1C1F2E",
+            colorInputBackground: "#252A41",
+            colorInputText: "#fff",
+            colorTextSecondary: "#9CA3AF",
+            colorDanger: "#FF4444",
+            colorSuccess: "#00CC88",
+          },
+          elements: {
+            formButtonPrimary: "hover:opacity-80 transition-opacity",
+            card: "bg-[#1C1F2E] shadow-xl",
+            headerTitle: "text-2xl font-bold",
+            socialButtonsIconButton: "hover:scale-105 transition-transform",
+          }
+        }}>
       <body className={`${inter.className} bg-dark-2`}>
         {children}
         <Toaster/>
