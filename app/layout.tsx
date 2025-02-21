@@ -25,7 +25,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/logo.png",
+            logoImageUrl: "/icons/logo1.png",
             logoPlacement: "inside",
             shimmer: true,
           },
