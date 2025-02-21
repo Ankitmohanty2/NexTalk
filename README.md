@@ -59,7 +59,7 @@ A seamless experience across all devices.
 
 ## 🌐 Live Demo
 
-Experience NexTalk in action: [Try NexTalk Now](zoom-clone-topaz-theta.vercel.app)
+Experience NexTalk in action: [Try NexTalk Now](https://nex-talk-five.vercel.app/)
 
 ## 🤝 Contributing
 
