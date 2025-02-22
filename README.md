@@ -68,4 +68,3 @@ Contributions are what make the open-source community such an amazing place to l
 ## 🙏 Acknowledgments
 
 - Special thanks to **JavaScript Mastery** for their valuable insights and inspiration.
-
